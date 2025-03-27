@@ -3,40 +3,41 @@ import { RiGithubLine, RiExternalLinkLine } from 'react-icons/ri';
 const Projects = () => {
   const projectsData = [
     {
-      title: "E-commerce Platform",
-      description: "A full-stack e-commerce platform with advanced features including real-time inventory, payment processing, and admin dashboard.",
-      image: "https://public.readdy.ai/ai/img_res/e304d31951534951d471425b49dc67d9.jpg",
-      tags: ["Next.js", "Node.js", "PostgreSQL", "AWS"],
-      links: {
-        code: "#",
-        demo: "#"
-      }
-    },
-    {
-      title: "Social Media Platform",
-      description: "A full-stack social media platform with real-time messaging, post sharing, and user interactions using WebSocket.",
+      title: "Artifex Ai",
+      description: "A platform for AI-powered chatbot with user authentication , Image generation and Image analyzation tools. Designed for a seamless user experience with interactive UI elements.",
       image: "https://public.readdy.ai/ai/img_res/93b8f95a2309d0290ce8efe39e34857d.jpg",
-      tags: ["Next.js", "MongoDB", "Socket.io", "AWS S3"],
+      tags: ["React.js", "Tailwind CSS", "Gemini API", "DaisyUI"],
       links: {
-        code: "#",
+        code: "https://github.com/sarojkumarvn/ArtifexAiV2",
         demo: "#"
       }
     },
     {
-      title: "Tourism Balasore",
-      description: "A tourism website showcasing the beautiful destinations and cultural heritage of Balasore.",
-      image: "https://public.readdy.ai/ai/img_res/dc23ead8457bd62ebe71d6e2678c0c81.jpg",
+      title: "E-commerce Platform",
+      description: "A feature-rich e-commerce platform including a login/signup system,payment processing. Designed for a seamless shopping experience with interactive UI elements.",
+      image: "https://public.readdy.ai/ai/img_res/e304d31951534951d471425b49dc67d9.jpg",
       tags: ["HTML5", "CSS3", "JavaScript"],
       links: {
+        code: "https://github.com/sarojkumarvn/E-commerce",
+        demo: "#"
+      }
+    },
+    
+    {
+      title: "Quick Brain Ai",
+      description: "A fully functional Ai powered platform for quick chat with your PDF , PDF uploading System , AI powered question answering, text summerization. Designed for a seamless user experience with interactive UI elements.Contributed in the Frontend Development of this project.",
+      image: "https://public.readdy.ai/ai/img_res/dc23ead8457bd62ebe71d6e2678c0c81.jpg",
+      tags: ["REACT.JS", "TAILWIND CSS", "DAISYUI", "REACT QUERY"],
+      links: {
         code: "#",
         demo: "#"
       }
     },
     {
-      title: "Car Rentals",
-      description: "A car rental platform with booking system, vehicle catalog, and user dashboard.",
+      title: "Spotify ",
+      description: "A Spotify clone with a fully responsive UI, sleek UI, music playback, and interactive controls. Includes essential audio features for a seamless and engaging listening experience",
       image: "https://public.readdy.ai/ai/img_res/ed0231c635d6974a7232f526bbffa4c2.jpg",
-      tags: ["React", "Node.js", "MongoDB"],
+      tags: ["HTML5", "CSS3", "JavaScript"],
       links: {
         code: "#",
         demo: "#"
@@ -70,10 +71,10 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className="flex gap-4">
-                  <a href={project.links.code} className="flex items-center gap-2 text-primary hover:text-primary/80">
+                  <a href={project.links.code} target='_blank' rel=' noopener  noreferrer' className="flex items-center gap-2 text-primary hover:text-primary/80">
                     <RiGithubLine /> Code
                   </a>
-                  <a href={project.links.demo} className="flex items-center gap-2 text-primary hover:text-primary/80">
+                  <a href={project.links.demo} target='_blank' rel=' noopener  noreferrer' className="flex items-center gap-2 text-primary hover:text-primary/80">
                     <RiExternalLinkLine /> Live Demo
                   </a>
                 </div>

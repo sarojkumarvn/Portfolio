@@ -74,13 +74,12 @@ const Header = () => {
       <nav className="fixed w-full bg-gray-900/95 backdrop-blur-sm z-50 border-b border-gray-800">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <a href="#" className="text-2xl font-pacifico text-gradient">Saroj Kumar Ojha</a>
+            <a href="#" className="text-2xl font-pacifico text-gradient">SKO</a>
             <div className="hidden md:flex items-center space-x-8">
               <button onClick={() => scrollToSection('about')} className="hover:text-primary transition-colors">About</button>
               <button onClick={() => scrollToSection('skills')} className="hover:text-primary transition-colors">Skills</button>
               <button onClick={() => scrollToSection('projects')} className="hover:text-primary transition-colors">Projects</button>
               <button onClick={() => scrollToSection('contact')} className="hover:text-primary transition-colors">Contact</button>
-              <button className="bg-primary hover:bg-primary/90 text-white px-6 py-2 rounded-button">Resume</button>
             </div>
             <button className="md:hidden text-2xl" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
               <FiMenu />
@@ -112,14 +111,15 @@ const Header = () => {
                 <pre className="text-sm text-primary font-mono animate-typing overflow-hidden whitespace-pre-wrap">
                   {`const Portfolio = {
   name: "Saroj Kumar Ojha",
-  role: "Full Stack Developer",
-  skills: ["React", "Node.js", "TypeScript"],
+  role: "Frontend Developer",
+  skills: ["React", "Tailwind CSS", "React query"],
   passion: "Building scalable applications",
   code: () => {
     while(true) {
       learn();
       build();
       improve();
+      deploy();
     }
   }
 };
@@ -138,7 +138,7 @@ Portfolio.code();`}
               <span className="text-gray-300">Frontend Developer</span>
             </h1>
             <p className="text-xl text-gray-400 mb-12 slide-in" style={{ animationDelay: '0.2s' }}>
-              Passionate full stack developer specializing in building scalable web applications using modern technologies like Next.js, Node.js, and cloud services. Experienced in both frontend and backend development with a focus on performance and user experience.
+              Passionate frontend developer specializing in building scalable web applications using modern technologies . Experienced in both frontend development with a focus on performance and user experience. Aspiring to be a Full stck developer
             </p>
             <div className="flex flex-wrap gap-6 slide-in" style={{ animationDelay: '0.4s' }}>
               <button 
@@ -149,7 +149,7 @@ Portfolio.code();`}
               </button>
               <button 
                 onClick={() => scrollToSection('contact')}
-                className="border border-gray-700 hover:border-primary text-white px-8 py-4 rounded-button text-lg font-semibold flex items-center gap-2"
+                className="border bg-indigo-700 rounded-2xl border-gray-700 hover:border-primary text-white px-8 py-4 rounded-button text-lg font-semibold flex items-center gap-2"
               >
                 Contact Me <FiSend />
               </button>

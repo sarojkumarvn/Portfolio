@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { RiCodeSLine, RiDatabase2Line, RiCloudLine, RiCheckLine } from 'react-icons/ri';
+import { RiCodeSLine, RiDatabase2Line, RiCloudLine, RiCheckLine, RiToolsFill, RiToolsLine } from 'react-icons/ri';
 
 const Skills = () => {
   const [hoveredCard, setHoveredCard] = useState(null);
@@ -9,32 +9,31 @@ const Skills = () => {
       title: "Frontend Development",
       icon: <RiCodeSLine className="text-3xl text-primary" />,
       items: [
-        "Next.js & React",
-        "TypeScript",
-        "Tailwind CSS",
-        "Redux & Context API"
+        "HTML5",
+        "CSS3",
+        "JavaScript",
       ],
       bg: "bg-primary/10"
     },
     {
-      title: "Backend Development",
+      title: "Frameworks & Libraries",
       icon: <RiDatabase2Line className="text-3xl text-secondary" />,
       items: [
-        "Node.js & Express",
-        "MongoDB",
-        "PostgreSQL",
-        "RESTful APIs"
+        "React.js",
+        "Tailwind CSS",
+        "React Query",
+        "DaisyUI"
+
       ],
       bg: "bg-secondary/10"
     },
     {
-      title: "DevOps & Cloud",
-      icon: <RiCloudLine className="text-3xl text-primary" />,
+      title: "Tools & Technologies",
+      icon: <RiToolsLine className="text-3xl text-primary" />,
       items: [
-        "AWS Services",
-        "Docker",
-        "CI/CD",
-        "Git & GitHub"
+        "Git & GitHub",
+        "VsCode",
+        
       ],
       bg: "bg-primary/10"
     }
