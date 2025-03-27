@@ -138,7 +138,7 @@ Portfolio.code();`}
               <span className="text-gray-300">Frontend Developer</span>
             </h1>
             <p className="text-xl text-gray-400 mb-12 slide-in" style={{ animationDelay: '0.2s' }}>
-              Passionate frontend developer specializing in building scalable web applications using modern technologies . Experienced in both frontend development with a focus on performance and user experience. Aspiring to be a Full stck developer
+              Passionate frontend developer specializing in building scalable web applications using modern technologies . Experienced in frontend development with a focus on performance and user experience. Aspiring to be a Full stck developer
             </p>
             <div className="flex flex-wrap gap-6 slide-in" style={{ animationDelay: '0.4s' }}>
               <button 
