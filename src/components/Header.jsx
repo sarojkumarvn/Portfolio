@@ -48,7 +48,7 @@ const Header = () => {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
-      setMobileMenuOpen(false);
+      setMobileMenuOpen(false); // close the mobile
     }
   };
 
@@ -74,7 +74,7 @@ const Header = () => {
       <nav className="fixed w-full bg-gray-900/95 backdrop-blur-sm z-50 border-b border-gray-800">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <a href="#" className="text-2xl font-pacifico text-gradient">SKO</a>
+            <a href="#" className="text-2xl font-bold text-gradient">SKO</a>
             <div className="hidden md:flex items-center space-x-8">
               <button onClick={() => scrollToSection('about')} className="hover:text-primary transition-colors">About</button>
               <button onClick={() => scrollToSection('skills')} className="hover:text-primary transition-colors">Skills</button>
@@ -123,7 +123,7 @@ const Header = () => {
     }
   }
 };
-Portfolio.code();`}
+SarojWeb.code();`}
                 </pre>
               </div>
             </div>
