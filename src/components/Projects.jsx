@@ -5,42 +5,42 @@ const Projects = () => {
   const projectsData = [
     {
       title: "Artifex Ai",
-      description: "A platform for AI-powered chatbot with user authentication , Image generation and Image analyzation tools. Designed for a seamless user experience with interactive UI elements.",
-      image: "./src/assets/artifex.jpg",
+      description: "A platform for AI-powered chatbot with user authentication, Image generation, and Image analyzation tools. Designed for a seamless user experience with interactive UI elements.",
+      image: "/artifex.jpg",
       tags: ["React.js", "Tailwind CSS", "Gemini API", "DaisyUI"],
       links: {
         code: "https://github.com/sarojkumarvn/ArtifexAiV2",
-        demo: "https://github.com/sarojkumarvn/ArtifexAiV2"  
+        demo: "https://github.com/sarojkumarvn/ArtifexAiV2",
       }
     },
     {
       title: "E-commerce Platform",
-      description: "A feature-rich e-commerce platform including a login/signup system,payment processing. Designed for a seamless shopping experience with interactive UI elements.",
-      image: "./src/assets/ecom.jpg",
+      description: "A feature-rich e-commerce platform including a login/signup system, payment processing. Designed for a seamless shopping experience with interactive UI elements.",
+      image: "/ecom.jpg",
       tags: ["HTML5", "CSS3", "JavaScript"],
       links: {
         code: "https://github.com/sarojkumarvn/E-commerce",
-        demo: "https://github.com/sarojkumarvn/E-commerce"  
+        demo: "https://github.com/sarojkumarvn/E-commerce",
       }
     },
     {
       title: "Quick Brain Ai",
-      description: "A fully functional Ai powered platform for quick chat with your PDF , PDF uploading System , AI powered question answering, text summerization. Designed for a seamless user experience with interactive UI elements.Contributed in the Frontend Development of this project.",
-      image: "./src/assets/quickBrain.jpg",
-      tags: ["REACT.JS", "TAILWIND CSS", "DAISYUI", "REACT QUERY"],
+      description: "A fully functional AI-powered platform for quick chat with your PDF, PDF uploading System, AI-powered question answering, text summarization. Designed for a seamless user experience with interactive UI elements. Contributed to the Frontend Development of this project.",
+      image: "/quickbrain.jpg",
+      tags: ["React.js", "Tailwind CSS", "DaisyUI", "React Query"],
       links: {
         code: "https://github.com/jyotishankar04/quickBrainAI-frontend",
-        demo: "https://github.com/jyotishankar04/quickBrainAI-frontend"  
+        demo: "https://github.com/jyotishankar04/quickBrainAI-frontend",
       }
     },
     {
-      title: "Spotify ",
-      description: "A Spotify clone with a fully responsive UI, sleek UI, music playback, and interactive controls. Includes essential audio features for a seamless and engaging listening experience",
-      image: "./src/assets/spotify.jpg",
+      title: "Spotify Clone",
+      description: "A Spotify clone with a fully responsive UI, sleek design, music playback, and interactive controls. Includes essential audio features for a seamless and engaging listening experience.",
+      image: "/spotify.jpg",
       tags: ["HTML5", "CSS3", "JavaScript"],
       links: {
         code: "https://github.com/sarojkumarvn/Spotify",
-        demo: "https://github.com/sarojkumarvn/Spotify"  
+        demo: "https://github.com/sarojkumarvn/Spotify",
       }
     }
   ];
@@ -65,7 +65,7 @@ const Projects = () => {
                 <p className="text-gray-400 mb-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mb-6">
                   {project.tags.map((tag, i) => (
-                    <span key={i} className="px-3 py-1 bg-primary/10 text-black text-bold rounded-full text-sm bg-indigo-200 hover:bg-indigo-300 ">
+                    <span key={i} className="px-3 py-1 bg-primary/10 text-black font-bold rounded-full text-sm bg-indigo-200 hover:bg-indigo-300">
                       {tag}
                     </span>
                   ))}
