@@ -6,7 +6,7 @@ const Projects = () => {
     {
       title: "Artifex Ai",
       description: "A platform for AI-powered chatbot with user authentication , Image generation and Image analyzation tools. Designed for a seamless user experience with interactive UI elements.",
-      image: "./src/assets/artifex.png",
+      image: "./src/assets/artifex.jpg",
       tags: ["React.js", "Tailwind CSS", "Gemini API", "DaisyUI"],
       links: {
         code: "https://github.com/sarojkumarvn/ArtifexAiV2",
@@ -16,7 +16,7 @@ const Projects = () => {
     {
       title: "E-commerce Platform",
       description: "A feature-rich e-commerce platform including a login/signup system,payment processing. Designed for a seamless shopping experience with interactive UI elements.",
-      image: "./src/assets/ecom.png",
+      image: "./src/assets/ecom.jpg",
       tags: ["HTML5", "CSS3", "JavaScript"],
       links: {
         code: "https://github.com/sarojkumarvn/E-commerce",
@@ -26,7 +26,7 @@ const Projects = () => {
     {
       title: "Quick Brain Ai",
       description: "A fully functional Ai powered platform for quick chat with your PDF , PDF uploading System , AI powered question answering, text summerization. Designed for a seamless user experience with interactive UI elements.Contributed in the Frontend Development of this project.",
-      image: "./src/assets/quickBrain.png",
+      image: "./src/assets/quickBrain.jpg",
       tags: ["REACT.JS", "TAILWIND CSS", "DAISYUI", "REACT QUERY"],
       links: {
         code: "https://github.com/jyotishankar04/quickBrainAI-frontend",
@@ -36,7 +36,7 @@ const Projects = () => {
     {
       title: "Spotify ",
       description: "A Spotify clone with a fully responsive UI, sleek UI, music playback, and interactive controls. Includes essential audio features for a seamless and engaging listening experience",
-      image: "./src/assets/spotify.png",
+      image: "./src/assets/spotify.jpg",
       tags: ["HTML5", "CSS3", "JavaScript"],
       links: {
         code: "https://github.com/sarojkumarvn/Spotify",
